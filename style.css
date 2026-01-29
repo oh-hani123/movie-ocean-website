@@ -187,4 +187,32 @@ footer {
 footer p {
     margin-bottom: 0.5em;
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    
+    section {
+        padding: 1em;
+        margin: 0.5em;
+    }
+    
+    table {
+        font-size: 0.9em;
+        overflow-x: auto;
+        display: block;
+    }
+    
+    article img {
+        float: none;
+        display: block;
+        margin: 0 auto 1em;
+    }
+    
+    form {
+        padding: 1em;
+    }
+}
+
 
