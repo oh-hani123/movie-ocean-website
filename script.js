@@ -88,21 +88,7 @@ darkModeButton.style.border = "none";
 darkModeButton.style.borderRadius = "5px";
 darkModeButton.style.cursor = "pointer";
 
-document.body.appendChild(darkModeButton);
 
-darkModeButton.addEventListener('click', function() {
-    document.body.classList.toggle("dark-mode");
-    
-    if (document.body.classList.contains("dark-mode")) {
-        document.body.style.backgroundColor = "#333";
-        document.body.style.color = "white";
-        darkModeButton.textContent = "☀️ Light Mode";
-    } else {
-        document.body.style.backgroundColor = "";
-        document.body.style.color = "";
-        darkModeButton.textContent = "🌙 Dark Mode";
-    }
-});
 
 
 window.onload = function() {
@@ -145,4 +131,5 @@ topButton.addEventListener('click', function() {
         top: 0,
         behavior: 'smooth'
     });
+
 });
