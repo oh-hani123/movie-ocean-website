@@ -76,20 +76,6 @@ navLinks.forEach(link => {
 
 
 
-const darkModeButton = document.createElement('button');
-darkModeButton.textContent = "🌙 Dark Mode";
-darkModeButton.style.position = "fixed";
-darkModeButton.style.top = "10px";
-darkModeButton.style.right = "10px";
-darkModeButton.style.padding = "5px 10px";
-darkModeButton.style.background = "#2c3e50";
-darkModeButton.style.color = "white";
-darkModeButton.style.border = "none";
-darkModeButton.style.borderRadius = "5px";
-darkModeButton.style.cursor = "pointer";
-
-
-
 
 window.onload = function() {
     if (!localStorage.getItem("firstVisit")) {
@@ -133,3 +119,4 @@ topButton.addEventListener('click', function() {
     });
 
 });
+
